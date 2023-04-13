@@ -1,0 +1,148 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-color: #21D4FD;
+    background-image: linear-gradient(4deg, #21D4FD 21%, #B721FF 100%);
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+.header {
+    /* border: 2px solid red; */
+    background-size: cover;
+    z-index: -1;
+    background-color: #222222;
+
+}
+
+.li-container {
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    align-items: right;
+}
+
+.list-item {
+    padding: 2rem;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: whitesmoke;
+}
+
+#LISTITEM {
+    font-weight: bold;
+    padding: 1.5rem;
+    /* padding-left: 0rem; */
+    font-size: 1.75rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    right: 81rem;
+    color: white;
+
+}
+
+#loginbtn {
+    /* padding: 1rem; */
+    padding: 1.5rem;
+    top: 0.8rem;
+
+}
+
+#btn {
+    padding: 0.7rem;
+    border-radius: 0.7rem;
+    border: none;
+    font-weight: 1000;
+}
+
+/* Container of pass */
+.password-container {
+    border: .1rem solid black;
+    border-radius: 1rem;
+    width: 64rem;
+    margin: auto;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    padding: 7rem;
+    padding-right: 9.8rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 15px rgb(12, 12, 12);
+}
+
+.head {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    bottom: 2.8rem;
+
+
+}
+
+.para {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 0.7rem;
+}
+
+#CHANGEpassword {
+    padding: 0.7rem;
+    border-radius: 0.7rem;
+    border: none;
+    font-weight: 1000;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.password {
+    font-family: serif;
+    font-weight: 1000;
+    font-size: 1.6rem;
+    padding-top: 0.762rem;
+    padding-bottom: 0.762rem;
+}
+
+#copy-icon {
+    display: flex;
+    flex-direction: row;
+}
+
+.passcont {
+    display: flex;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 11px;
+}
+
+#copy-icon {
+
+    margin-top: 0.9375rem;
+    margin-bottom: 0.9375rem;
+
+}
+
+.password {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.password::selection {
+    color: rgb(55, 58, 228);
+    background-color: white;
+}
